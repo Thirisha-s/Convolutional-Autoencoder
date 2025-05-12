@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/914f25ac-0255-499e-a493-ca5c248ec969)# Convolutional Autoencoder for Image Denoising
 
 ## AIM
 
@@ -36,7 +35,7 @@ Evaluate the model and visualize results by comparing original, noisy, and denoi
 ## PROGRAM
 ### Name:THIRISHA S
 ### Register Number:212222230160
-```
+```python
 class DenoisingAutoencoder(nn.Module):
     def __init__(self):
         super(DenoisingAutoencoder, self).__init__()
@@ -81,17 +80,14 @@ def train(model, loader, criterion, optimizer, epochs=5):
 ```
 
 
-
 ## OUTPUT
 
 ### Model Summary
-
-
+![image](https://github.com/user-attachments/assets/1dde6837-b187-4b41-b206-50aa31d759fd)
 
 
 ### Original vs Noisy Vs Reconstructed Image
-
-
+![image](https://github.com/user-attachments/assets/914f25ac-0255-499e-a493-ca5c248ec969)
 
 ## RESULT
 The trained autoencoder successfully removes noise from corrupted MNIST digits.
